@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>postos_vacinacao_teste2.shp</name>
+	<Schema name="postos_vacinacao_teste2" id="S_postos_vacinacao_teste2_SSSSSSSDDSS">
+		<SimpleField type="string" name="POSTO"><displayName>&lt;b&gt;POSTO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ENDEREÇO"><displayName>&lt;b&gt;ENDEREÇO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="BAIRRO"><displayName>&lt;b&gt;BAIRRO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="REGIONAL"><displayName>&lt;b&gt;REGIONAL&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="CIDADE"><displayName>&lt;b&gt;CIDADE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="ESTADO"><displayName>&lt;b&gt;ESTADO&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="DRIVE_THRU"><displayName>&lt;b&gt;DRIVE_THRU&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="LATITUDE"><displayName>&lt;b&gt;LATITUDE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="LONGITUDE"><displayName>&lt;b&gt;LONGITUDE&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="F10"><displayName>&lt;b&gt;F10&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="F11"><displayName>&lt;b&gt;F11&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>POSTO</b></td><td>$[postos_vacinacao_teste2/POSTO]</td></tr>
+  <tr><td><b>ENDEREÇO</b></td><td>$[postos_vacinacao_teste2/ENDEREÇO]</td></tr>
+  <tr><td><b>BAIRRO</b></td><td>$[postos_vacinacao_teste2/BAIRRO]</td></tr>
+  <tr><td><b>REGIONAL</b></td><td>$[postos_vacinacao_teste2/REGIONAL]</td></tr>
+  <tr><td><b>CIDADE</b></td><td>$[postos_vacinacao_teste2/CIDADE]</td></tr>
+  <tr><td><b>ESTADO</b></td><td>$[postos_vacinacao_teste2/ESTADO]</td></tr>
+  <tr><td><b>DRIVE_THRU</b></td><td>$[postos_vacinacao_teste2/DRIVE_THRU]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[postos_vacinacao_teste2/LATITUDE]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[postos_vacinacao_teste2/LONGITUDE]</td></tr>
+  <tr><td><b>F10</b></td><td>$[postos_vacinacao_teste2/F10]</td></tr>
+  <tr><td><b>F11</b></td><td>$[postos_vacinacao_teste2/F11]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>POSTO</b></td><td>$[postos_vacinacao_teste2/POSTO]</td></tr>
+  <tr><td><b>ENDEREÇO</b></td><td>$[postos_vacinacao_teste2/ENDEREÇO]</td></tr>
+  <tr><td><b>BAIRRO</b></td><td>$[postos_vacinacao_teste2/BAIRRO]</td></tr>
+  <tr><td><b>REGIONAL</b></td><td>$[postos_vacinacao_teste2/REGIONAL]</td></tr>
+  <tr><td><b>CIDADE</b></td><td>$[postos_vacinacao_teste2/CIDADE]</td></tr>
+  <tr><td><b>ESTADO</b></td><td>$[postos_vacinacao_teste2/ESTADO]</td></tr>
+  <tr><td><b>DRIVE_THRU</b></td><td>$[postos_vacinacao_teste2/DRIVE_THRU]</td></tr>
+  <tr><td><b>LATITUDE</b></td><td>$[postos_vacinacao_teste2/LATITUDE]</td></tr>
+  <tr><td><b>LONGITUDE</b></td><td>$[postos_vacinacao_teste2/LONGITUDE]</td></tr>
+  <tr><td><b>F10</b></td><td>$[postos_vacinacao_teste2/F10]</td></tr>
+  <tr><td><b>F11</b></td><td>$[postos_vacinacao_teste2/F11]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>postos_vacinacao_teste2</name>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">BHTRANS - COP (Regional Oeste)</SimpleData>
+					<SimpleData name="ENDEREÇO">Av. Engenheiro Carlos Goulart, 900</SimpleData>
+					<SimpleData name="BAIRRO">Buritis</SimpleData>
+					<SimpleData name="REGIONAL">Oeste</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Sim</SimpleData>
+					<SimpleData name="LATITUDE">-19.9705</SimpleData>
+					<SimpleData name="LONGITUDE">-43.961</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.96098000000001,-19.97049000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Minas Shopping - Doca 3 (Regional Nordeste)</SimpleData>
+					<SimpleData name="ENDEREÇO">Av. Cristiano Machado, 4.000</SimpleData>
+					<SimpleData name="BAIRRO">União</SimpleData>
+					<SimpleData name="REGIONAL">Nordeste</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Sim</SimpleData>
+					<SimpleData name="LATITUDE">-19.8754</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9274</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.92744,-19.87537000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">UFMG - Unidade Administrativa 2 - DAST, Portaria 2 (Regional Pampulha)</SimpleData>
+					<SimpleData name="ENDEREÇO">Av. Antônio Abrahão Caram, 763</SimpleData>
+					<SimpleData name="BAIRRO">São José</SimpleData>
+					<SimpleData name="REGIONAL">Pampulha</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Sim</SimpleData>
+					<SimpleData name="LATITUDE">-19.8628</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9674</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.96742,-19.86279999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Corpo de Bombeiros (Regional Centro-Sul)</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Piauí, 1.815</SimpleData>
+					<SimpleData name="BAIRRO">Funcionários</SimpleData>
+					<SimpleData name="REGIONAL">Centro-Sul</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Sim</SimpleData>
+					<SimpleData name="LATITUDE">-19.9377</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9283</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.92826999999999,-19.93772999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Boulevard Shopping (Regional Centro-Sul)</SimpleData>
+					<SimpleData name="ENDEREÇO">Entrada pelo estacionamento da R. Professor Otaviano Almeida</SimpleData>
+					<SimpleData name="BAIRRO">Santa Efigênia</SimpleData>
+					<SimpleData name="REGIONAL">Centro-Sul</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Sim</SimpleData>
+					<SimpleData name="LATITUDE">-19.9204</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9201</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.92005,-19.92039,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Shopping Estação BH (Regional Venda Nova)</SimpleData>
+					<SimpleData name="ENDEREÇO">Entrada pela Av. Vilarinho (acesso ao G1)</SimpleData>
+					<SimpleData name="BAIRRO">Vila Cloris</SimpleData>
+					<SimpleData name="REGIONAL">Venda Nova</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Sim</SimpleData>
+					<SimpleData name="LATITUDE">-19.8214</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9474</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.94743,-19.82145,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Bairro das Indústrias</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Maria de Lourdes Manso, 80</SimpleData>
+					<SimpleData name="BAIRRO">Bairro das Indústrias</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9637</SimpleData>
+					<SimpleData name="LONGITUDE">-44.0008</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-44.00080999999999,-19.96371,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Bonsucesso</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Dr. Cristiano Resende, 1.875</SimpleData>
+					<SimpleData name="BAIRRO">Bonsucesso</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.987</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9889</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.98885999999998,-19.98696999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Carlos Renato Dias</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua José Gonçalves, 375</SimpleData>
+					<SimpleData name="BAIRRO">Barreiro</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.979</SimpleData>
+					<SimpleData name="LONGITUDE">-44.0133</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-44.01333,-19.97896,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Diamante / Teixeira Dias</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Maria Marculina de Souza, 40</SimpleData>
+					<SimpleData name="BAIRRO">Teixeira Dias</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9919</SimpleData>
+					<SimpleData name="LONGITUDE">-44.0159</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-44.01585000000001,-19.99191999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Eduardo Mauro de Araújo - Miramar</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Eridano, 540</SimpleData>
+					<SimpleData name="BAIRRO">Miramar</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9977</SimpleData>
+					<SimpleData name="LONGITUDE">-44.0116</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-44.01157000000001,-19.99771000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Francisco Gomes Barbosa - Tirol</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Hugo Campos Martins, 15</SimpleData>
+					<SimpleData name="BAIRRO">Tirol</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9852</SimpleData>
+					<SimpleData name="LONGITUDE">-44.0555</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-44.05549999999999,-19.98522999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Independência</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Maria Antonieta Ferreira, 151</SimpleData>
+					<SimpleData name="BAIRRO">Independência</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-20.0196</SimpleData>
+					<SimpleData name="LONGITUDE">-44.0315</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-44.03147999999999,-20.01965000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Itaipu - Jatobá</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Wanderley de Sales Barbosa, 350</SimpleData>
+					<SimpleData name="BAIRRO">Marilândia</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9946</SimpleData>
+					<SimpleData name="LONGITUDE">-44.0545</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-44.05448999999999,-19.99459999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Lisandra Angélica David Justino - Túnel de Ibirité</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Marly Passos, 225</SimpleData>
+					<SimpleData name="BAIRRO">Tunel Ibirité</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9848</SimpleData>
+					<SimpleData name="LONGITUDE">-44.0485</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-44.04853000000001,-19.98481000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Mangueiras</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Chafariz, 4</SimpleData>
+					<SimpleData name="BAIRRO">Petrópolis</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-20.0136</SimpleData>
+					<SimpleData name="LONGITUDE">-44.0309</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-44.03084999999999,-20.01364000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Salão Paroquial da Comunidade N. Sra. da Abadia/Paróquia Jesus Ressuscitado - Centro de Saúde Maria Madalena Teodoro - Lindéia</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Flor de Seda, 1.200</SimpleData>
+					<SimpleData name="BAIRRO">Lindéia</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9792</SimpleData>
+					<SimpleData name="LONGITUDE">-44.0466</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-44.04656,-19.97917999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro Esportivo Milionários - Centro de Saúde Milionários</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua David Fonseca, 1396</SimpleData>
+					<SimpleData name="BAIRRO">Milionários</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9834</SimpleData>
+					<SimpleData name="LONGITUDE">-44.0021</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-44.00206000000001,-19.98343999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Pilar - Olhos D&apos;Água</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua São Pedro da Aldeia, 55</SimpleData>
+					<SimpleData name="BAIRRO">Pilar</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9996</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9671</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.96705000000001,-19.99960999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Regina</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Aristolino Basilio de Oliveira, 467</SimpleData>
+					<SimpleData name="BAIRRO">Regina</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9826</SimpleData>
+					<SimpleData name="LONGITUDE">-44.0548</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-44.05475999999999,-19.98258999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Santa Cecília</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Paulo Duarte, 280</SimpleData>
+					<SimpleData name="BAIRRO">Santa Cecília</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9996</SimpleData>
+					<SimpleData name="LONGITUDE">-44.0329</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-44.03285,-19.99964,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Urucuia</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua W2, 432</SimpleData>
+					<SimpleData name="BAIRRO">Urucuia / Pongelupe</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-20.0081</SimpleData>
+					<SimpleData name="LONGITUDE">-44.0087</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-44.0087,-20.00808000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Vale do Jatobá</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Domício Gabriel de Vasconcelos, 100</SimpleData>
+					<SimpleData name="BAIRRO">Vale do Jatobá</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-20.0103</SimpleData>
+					<SimpleData name="LONGITUDE">-44.0362</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-44.03623999999999,-20.01032000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Vila Cemig</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Coletivo, 68</SimpleData>
+					<SimpleData name="BAIRRO">Vila Cemig</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9977</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9925</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.99246999999999,-19.99771000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Vila Pinho</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Coletora, 916</SimpleData>
+					<SimpleData name="BAIRRO">Vila Pinho</SimpleData>
+					<SimpleData name="REGIONAL">Barreiro</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-20.0032</SimpleData>
+					<SimpleData name="LONGITUDE">-44.0234</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-44.02334999999999,-20.00317,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Cafezal</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Bela Vista, 30</SimpleData>
+					<SimpleData name="BAIRRO">Santana do Cafezal</SimpleData>
+					<SimpleData name="REGIONAL">Centro-Sul</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9362</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9112</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.91115999999999,-19.93622999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Conjunto Santa Maria</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Pastor Benjamim Maia, 57</SimpleData>
+					<SimpleData name="BAIRRO">Luxemburgo</SimpleData>
+					<SimpleData name="REGIONAL">Centro-Sul</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9527</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9545</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.95452,-19.95267000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Menino Jesus</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Congonhas, 692</SimpleData>
+					<SimpleData name="BAIRRO">Santo Antônio</SimpleData>
+					<SimpleData name="REGIONAL">Centro-Sul</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9431</SimpleData>
+					<SimpleData name="LONGITUDE">-43.942</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.94202000000002,-19.94310000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Nossa Senhora Aparecida</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Paulino Marques Gontijo, 109</SimpleData>
+					<SimpleData name="BAIRRO">São Lucas</SimpleData>
+					<SimpleData name="REGIONAL">Centro-Sul</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9306</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9173</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.91734,-19.93056000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Nossa Senhora de Fátima</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Corinto, 450</SimpleData>
+					<SimpleData name="BAIRRO">Serra</SimpleData>
+					<SimpleData name="REGIONAL">Centro-Sul</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9423</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9143</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.91432,-19.94234,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Oswaldo Cruz</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Uberaba, s/n (Esquina com Av. Barbacena)</SimpleData>
+					<SimpleData name="BAIRRO">Barro Preto</SimpleData>
+					<SimpleData name="REGIONAL">Centro-Sul</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9204</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9557</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.95566999999999,-19.92043000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Padre Tarcísio</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Coronel Jorge Davis, 500</SimpleData>
+					<SimpleData name="BAIRRO">Serra</SimpleData>
+					<SimpleData name="REGIONAL">Centro-Sul</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9338</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9153</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.91529,-19.93376,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Santa Lúcia</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Murilo Moraes de Andrade, 125</SimpleData>
+					<SimpleData name="BAIRRO">Santo Antônio</SimpleData>
+					<SimpleData name="REGIONAL">Centro-Sul</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9505</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9466</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.94654999999999,-19.95054999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Santa Rita de Cássia</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Cristina, 961</SimpleData>
+					<SimpleData name="BAIRRO">São Pedro</SimpleData>
+					<SimpleData name="REGIONAL">Centro-Sul</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9464</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9388</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.93882999999999,-19.94645,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde São Miguel Arcanjo</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Nossa Senhora de Fátima, 2.240</SimpleData>
+					<SimpleData name="BAIRRO">Fazendinha</SimpleData>
+					<SimpleData name="REGIONAL">Centro-Sul</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9348</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9023</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.90234000000002,-19.93475,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Tia Amância</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Iraí, 248</SimpleData>
+					<SimpleData name="BAIRRO">Vila Paris</SimpleData>
+					<SimpleData name="REGIONAL">Centro-Sul</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9478</SimpleData>
+					<SimpleData name="LONGITUDE">-43.95</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.94997000000001,-19.94780999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">SMED - Secretaria Municipal de Educação (Posto extra)</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Carangola, 288</SimpleData>
+					<SimpleData name="BAIRRO">Santo Antônio</SimpleData>
+					<SimpleData name="REGIONAL">Centro-Sul</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9414</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9423</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.94227999999999,-19.94140999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Escola de Saúde Pública - ESP (Posto extra)</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Uberaba, 2.061</SimpleData>
+					<SimpleData name="BAIRRO">Barro Preto</SimpleData>
+					<SimpleData name="REGIONAL">Centro-Sul</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9204</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9558</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.95577000000001,-19.92040000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Escola Municipal Senador Levindo Coelho (Posto extra)</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Caraça, 910</SimpleData>
+					<SimpleData name="BAIRRO">Serra</SimpleData>
+					<SimpleData name="REGIONAL">Centro-Sul</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9437</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9149</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.91485000000001,-19.9437,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Minas Tênis Clube I (Posto extra)</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua da Bahia, 2.244</SimpleData>
+					<SimpleData name="BAIRRO">Lourdes</SimpleData>
+					<SimpleData name="REGIONAL">Centro-Sul</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9357</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9406</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.94060000000002,-19.93572,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Alto Vera Cruz</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua General Osório, 959</SimpleData>
+					<SimpleData name="BAIRRO">Alto Vera Cruz</SimpleData>
+					<SimpleData name="REGIONAL">Leste</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9105</SimpleData>
+					<SimpleData name="LONGITUDE">-43.8894</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.88944000000001,-19.91052999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Boa Vista</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Guruá, 833</SimpleData>
+					<SimpleData name="BAIRRO">Boa Vista</SimpleData>
+					<SimpleData name="REGIONAL">Leste</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.891</SimpleData>
+					<SimpleData name="LONGITUDE">-43.8973</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.89733000000001,-19.89098999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Granja de Freitas</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua São Vicente, 405</SimpleData>
+					<SimpleData name="BAIRRO">Granja de Freitas</SimpleData>
+					<SimpleData name="REGIONAL">Leste</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9087</SimpleData>
+					<SimpleData name="LONGITUDE">-43.8847</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.88474,-19.90867000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Horto</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Anhanguera, 224</SimpleData>
+					<SimpleData name="BAIRRO">Santa Tereza</SimpleData>
+					<SimpleData name="REGIONAL">Leste</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.913</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9205</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.92051000000001,-19.91302999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Marco Antônio Menezes</SimpleData>
+					<SimpleData name="ENDEREÇO">Avenida Petrolina, 871</SimpleData>
+					<SimpleData name="BAIRRO">Sagrada Familia</SimpleData>
+					<SimpleData name="REGIONAL">Leste</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9057</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9156</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.91556,-19.90565000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Mariano de Abreu</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Fernão Dias, 220</SimpleData>
+					<SimpleData name="BAIRRO">Casa Branca</SimpleData>
+					<SimpleData name="REGIONAL">Leste</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.8971</SimpleData>
+					<SimpleData name="LONGITUDE">-43.8898</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.88978,-19.89706,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Novo Horizonte</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Pedro Alexandrino de Mendonça, 12</SimpleData>
+					<SimpleData name="BAIRRO">Taquaril</SimpleData>
+					<SimpleData name="REGIONAL">Leste</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9194</SimpleData>
+					<SimpleData name="LONGITUDE">-43.8772</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.87725,-19.91944000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Paraíso</SimpleData>
+					<SimpleData name="ENDEREÇO">Avenida Mendes Sá, 1.001</SimpleData>
+					<SimpleData name="BAIRRO">Paraíso</SimpleData>
+					<SimpleData name="REGIONAL">Leste</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9244</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9082</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.90822,-19.92441,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Pompéia</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Leopoldo Gomes, 440</SimpleData>
+					<SimpleData name="BAIRRO">Pompéia</SimpleData>
+					<SimpleData name="REGIONAL">Leste</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.9125</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9044</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.90440000000002,-19.91248999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_postos_vacinacao_teste2_SSSSSSSDDSS">
+					<SimpleData name="POSTO">Centro de Saúde Santa Inês</SimpleData>
+					<SimpleData name="ENDEREÇO">Rua Itumirim, 50</SimpleData>
+					<SimpleData name="BAIRRO">Santa Inês</SimpleData>
+					<SimpleData name="REGIONAL">Leste</SimpleData>
+					<SimpleData name="CIDADE">Belo Horizonte</SimpleData>
+					<SimpleData name="ESTADO">Mingas Gerais</SimpleData>
+					<SimpleData name="DRIVE_THRU">Não</SimpleData>
+					<SimpleData name="LATITUDE">-19.8878</SimpleData>
+					<SimpleData name="LONGITUDE">-43.9062</SimpleData>
+					<SimpleData name="F10"></SimpleData>
+					<SimpleData name="F11"></SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-43.90619,-19.88779999999999,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
